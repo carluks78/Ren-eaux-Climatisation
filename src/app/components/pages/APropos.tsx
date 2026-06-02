@@ -2,7 +2,6 @@ import { useEffect } from 'react'
 import { Link } from 'react-router'
 import { motion } from 'motion/react'
 import { Phone, ChevronRight, Award, Shield, Clock, Star, CheckCircle, MapPin } from 'lucide-react'
-import logoImage from '../../../imports/Capture_d_e_cran_2026-06-02_a__12.37.33.png'
 
 const fadeUp = { initial: { opacity: 0, y: 30 }, whileInView: { opacity: 1, y: 0 }, viewport: { once: true }, transition: { duration: 0.6 } }
 
@@ -45,7 +44,11 @@ export function APropos() {
               </p>
             </div>
             <div style={{ flexShrink: 0 }}>
-              <img src={logoImage} alt="Logo REN'EAUX" style={{ width: '100px', height: '100px', borderRadius: '20px', objectFit: 'cover', boxShadow: '0 10px 40px rgba(6,182,212,0.3)' }} />
+              <img
+  src="/logo-og.png"
+  alt="REN'EAUX Climatisation Mantes-la-Jolie"
+  style={{ height: '40px', width: '40px', borderRadius: '8px', objectFit: 'cover' }}
+/>
             </div>
           </motion.div>
         </div>
