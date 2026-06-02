@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link, NavLink, useLocation } from 'react-router'
 import { Menu, X, Phone, ChevronDown } from 'lucide-react'
-import logoImage from '../../imports/logo-og.png'
+
 
 const services = [
   { label: 'Installation Climatisation', href: '/installation-climatisation' },
@@ -63,9 +63,11 @@ export function Navbar() {
 
           {/* Logo */}
           <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', textDecoration: 'none' }}>
-            <img src={logoImage} alt="Logo REN'EAUX" style={{
-              height: '42px', width: '42px', borderRadius: '10px', objectFit: 'cover'
-            }} />
+            <img
+  src="/logo-og.png"
+  alt="REN'EAUX Climatisation Mantes-la-Jolie"
+  style={{ height: '40px', width: '40px', borderRadius: '8px', objectFit: 'cover' }}
+/>
             <div>
               <div style={{ color: '#FFFFFF', fontSize: '1.25rem', fontWeight: '800', letterSpacing: '-0.02em', lineHeight: 1.1 }}>
                 REN'EAUX
