@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link, NavLink, useLocation } from 'react-router'
 import { Menu, X, Phone, ChevronDown } from 'lucide-react'
-import logoImage from '../../imports/Capture_d_e_cran_2026-06-02_a__12.37.33.png'
+import logoImage from '../../imports/logo-og.png'
 
 const services = [
   { label: 'Installation Climatisation', href: '/installation-climatisation' },
