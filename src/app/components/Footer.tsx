@@ -1,6 +1,6 @@
 import { Link } from 'react-router'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
-import logoImage from '../../imports/Capture_d_e_cran_2026-06-02_a__12.37.33.png'
+import logoImage from '../../logo-og.png'
 
 const services = [
   { label: 'Installation Climatisation', href: '/installation-climatisation' },
