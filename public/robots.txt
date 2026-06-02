@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Bloquer les ressources inutiles pour les bots
+Disallow: /api/
+Disallow: /_next/
+Disallow: /node_modules/
+
+# Sitemap
+Sitemap: https://reneaux-climatisation.fr/sitemap.xml
