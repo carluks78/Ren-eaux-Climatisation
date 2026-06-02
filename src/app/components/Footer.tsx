@@ -1,6 +1,5 @@
 import { Link } from 'react-router'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
-import logoImage from '../../logo-og.png'
 
 const services = [
   { label: 'Installation Climatisation', href: '/installation-climatisation' },
@@ -44,7 +43,11 @@ export function Footer() {
           {/* Brand */}
           <div style={{ gridColumn: 'span 1' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '1rem' }}>
-              <img src={logoImage} alt="Logo REN'EAUX" style={{ height: '40px', width: '40px', borderRadius: '8px', objectFit: 'cover' }} />
+              <img
+  src="/logo-og.png"
+  alt="REN'EAUX Climatisation Mantes-la-Jolie"
+  style={{ height: '40px', width: '40px', borderRadius: '8px', objectFit: 'cover' }}
+/>
               <div>
                 <div style={{ color: '#fff', fontSize: '1.2rem', fontWeight: '800' }}>REN'EAUX</div>
                 <div style={{ color: '#06B6D4', fontSize: '0.6rem', letterSpacing: '0.1em', textTransform: 'uppercase' }}>Expert Climatisation</div>
