@@ -12,6 +12,11 @@ const services = [
   { label: 'Systèmes VRV / VRF', href: '/vrv-vrf' },
   { label: 'Climatisation Professionnelle', href: '/climatisation-professionnelle' },
   { label: 'Climatisation Industrielle', href: '/climatisation-industrielle' },
+
+  // Pages SEO Mantes-la-Jolie
+  { label: 'RGE Mantes : Installation climatisation', href: '/climatisation-rge-mantes-la-jolie' },
+{ label: 'RGE Mantes : Entretien climatisation', href: '/entretien-climatisation-rge-mantes-la-jolie' },
+{ label: 'RGE Mantes : Dépannage climatisation', href: '/depannage-climatisation-rge-mantes-la-jolie' },
 ]
 
 const navLinks = [
