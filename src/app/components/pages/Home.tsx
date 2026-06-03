@@ -178,40 +178,12 @@ export function Home() {
                   color: '#fff', fontSize: '0.85rem', fontWeight: '700',
                   whiteSpace: 'nowrap', boxShadow: '0 8px 25px rgba(6,182,212,0.4)',
                 }}>
-                  Intervention rapide · 07 67 06 05 24
+                  
                 </div>
               </div>
             </motion.div>
           </div>
         </div>
-
-        <div style={{
-  marginTop: '1rem',
-  display: 'flex',
-  flexWrap: 'wrap',
-  gap: '1rem'
-}}>
-  <Link
-    to="/climatisation-rge-mantes-la-jolie"
-    style={{ color: '#06B6D4' }}
-  >
-    Climatisation RGE Mantes-la-Jolie
-  </Link>
-
-  <Link
-    to="/entretien-climatisation-rge-mantes-la-jolie"
-    style={{ color: '#06B6D4' }}
-  >
-    Entretien Climatisation RGE
-  </Link>
-
-  <Link
-    to="/depannage-climatisation-rge-mantes-la-jolie"
-    style={{ color: '#06B6D4' }}
-  >
-    Dépannage Climatisation RGE
-  </Link>
-</div>
 
         {/* Wave */}
         <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0 }}>
