@@ -18,6 +18,8 @@ import { Avis } from './components/pages/Avis'
 import { APropos } from './components/pages/APropos'
 import { Contact } from './components/pages/Contact'
 import { DepannageRGEMantes } from './components/pages/DepannageRGEMantes'
+import { ClimatisationRGEMantes } from './components/pages/ClimatisationRGEMantes'
+import { EntretienRGEMantes } from './components/pages/EntretienRGEMantes'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -48,6 +50,8 @@ function AppRoutes() {
             <Route path="/a-propos" element={<APropos />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/depannage-climatisation-rge-mantes-la-jolie" element={<DepannageRGEMantes />} />
+            <Route path="/climatisation-rge-mantes-la-jolie" element={<ClimatisationRGEMantes />} />
+            <Route path="/entretien-climatisation-rge-mantes-la-jolie" element={<EntretienRGEMantes />} />
           </Routes>
         </main>
         <Footer />
