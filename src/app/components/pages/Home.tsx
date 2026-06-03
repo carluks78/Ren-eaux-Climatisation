@@ -390,74 +390,74 @@ export function Home() {
       </section>
 
       {/* ===== MANTES-LA-JOLIE RGE ===== */}
-<section style={{ background: '#fff', padding: '5rem 1.5rem' }}>
-  <div style={{ maxWidth: '1280px', margin: '0 auto' }}>
-    
-    <h2 style={{
-      textAlign: 'center',
-      color: '#0F172A',
-      fontSize: '2rem',
-      fontWeight: '800',
-      marginBottom: '1rem'
-    }}>
-      Climatisation RGE à Mantes-la-Jolie
-    </h2>
+<div style={{
+  display: 'flex',
+  flexWrap: 'wrap',
+  justifyContent: 'center',
+  gap: '1rem'
+}}>
 
-    <p style={{
-      textAlign: 'center',
-      color: '#64748B',
-      maxWidth: '700px',
-      margin: '0 auto 3rem'
-    }}>
-      Découvrez nos prestations de climatisation certifiées RGE à
-      Mantes-la-Jolie.
-    </p>
+  <Link
+    to="/climatisation-rge-mantes-la-jolie"
+    style={{
+      background: 'linear-gradient(135deg, #1E40AF, #06B6D4)',
+      color: '#fff',
+      textDecoration: 'none',
+      padding: '1rem 2rem',
+      borderRadius: '12px',
+      fontWeight: '700',
+      display: 'inline-flex',
+      alignItems: 'center',
+      gap: '0.5rem',
+      boxShadow: '0 4px 20px rgba(6,182,212,0.3)',
+      transition: 'all .3s ease'
+    }}
+  >
+    Installation Climatisation RGE
+    <ChevronRight size={18} />
+  </Link>
 
-    <div style={{
-      display: 'grid',
-      gridTemplateColumns: 'repeat(auto-fit,minmax(300px,1fr))',
-      gap: '1.5rem'
-    }}>
+  <Link
+    to="/entretien-climatisation-rge-mantes-la-jolie"
+    style={{
+      background: 'linear-gradient(135deg, #22C55E, #16A34A)',
+      color: '#fff',
+      textDecoration: 'none',
+      padding: '1rem 2rem',
+      borderRadius: '12px',
+      fontWeight: '700',
+      display: 'inline-flex',
+      alignItems: 'center',
+      gap: '0.5rem',
+      boxShadow: '0 4px 20px rgba(34,197,94,0.3)',
+      transition: 'all .3s ease'
+    }}
+  >
+    Entretien Climatisation RGE
+    <ChevronRight size={18} />
+  </Link>
 
-      <Link
-        to="/climatisation-rge-mantes-la-jolie"
-        style={{ textDecoration: 'none' }}
-      >
-        <div className="seo-card">
-          <h3>Installation Climatisation RGE</h3>
-          <p>
-            Installation de climatisation réversible à Mantes-la-Jolie.
-          </p>
-        </div>
-      </Link>
+  <Link
+    to="/depannage-climatisation-rge-mantes-la-jolie"
+    style={{
+      background: 'linear-gradient(135deg, #EF4444, #DC2626)',
+      color: '#fff',
+      textDecoration: 'none',
+      padding: '1rem 2rem',
+      borderRadius: '12px',
+      fontWeight: '700',
+      display: 'inline-flex',
+      alignItems: 'center',
+      gap: '0.5rem',
+      boxShadow: '0 4px 20px rgba(239,68,68,0.3)',
+      transition: 'all .3s ease'
+    }}
+  >
+    Dépannage Climatisation RGE
+    <ChevronRight size={18} />
+  </Link>
 
-      <Link
-        to="/entretien-climatisation-rge-mantes-la-jolie"
-        style={{ textDecoration: 'none' }}
-      >
-        <div className="seo-card">
-          <h3>Entretien Climatisation RGE</h3>
-          <p>
-            Contrat d'entretien et maintenance de climatisation.
-          </p>
-        </div>
-      </Link>
-
-      <Link
-        to="/depannage-climatisation-rge-mantes-la-jolie"
-        style={{ textDecoration: 'none' }}
-      >
-        <div className="seo-card">
-          <h3>Dépannage Climatisation RGE</h3>
-          <p>
-            Intervention rapide sur tout type de climatisation.
-          </p>
-        </div>
-      </Link>
-
-    </div>
-  </div>
-</section>
+</div>
 
       {/* ===== FAQ ===== */}
       <section style={{ background: '#F8FAFC', padding: '5rem 1.5rem' }}>
