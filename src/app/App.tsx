@@ -17,6 +17,7 @@ import { Realisations } from './components/pages/Realisations'
 import { Avis } from './components/pages/Avis'
 import { APropos } from './components/pages/APropos'
 import { Contact } from './components/pages/Contact'
+import { DepannageRGEMantes } from './components/pages/DepannageRGEMantes'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -46,6 +47,7 @@ function AppRoutes() {
             <Route path="/avis-clients" element={<Avis />} />
             <Route path="/a-propos" element={<APropos />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/depannage-climatisation-rge-mantes-la-jolie" element={<DepannageRGEMantes />} />
           </Routes>
         </main>
         <Footer />
